@@ -17,7 +17,7 @@ USE AT YOUR OWN RISK!
 
 /onlinetime: onlinetime.self
 
-/onlinetime < player>: onlintime.other
+/onlinetime < player>: onlinetime.other
 
 # Aliases
 
@@ -29,3 +29,4 @@ You can easily add your own alises by editing the plguin.yml in the plugins jar 
 # Usefull Links:
 CI: http://bender.minidigger.me:9090/job/OnlineTime/
 GitHub: https://github.com/MiniDigger/OnlineTime
+Spigot: https://www.spigotmc.org/resources/onlinetime.24998/
