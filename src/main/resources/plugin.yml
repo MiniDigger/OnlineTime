@@ -1,0 +1,8 @@
+name: PlayTime
+author: MiniDigger
+version: 1.0
+main: me.MiniDigger.OnlineTime.OnlineTime
+commands:
+  onlinetime:
+    description: Shows your playtime or the playtime of a specficed player.
+    aliases: [playtime]
