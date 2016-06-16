@@ -11,7 +11,13 @@ USE AT YOUR OWN RISK!
 
 /onlinetime: Displays your online time
 
-/onlinetime <player>: Displays the online time of <player>. <player> need to be online!
+/onlinetime < player>: Displays the online time of < player>. < player> needs to be online!
+
+# Permissions
+
+/onlinetime: onlinetime.self
+
+/onlinetime < player>: onlintime.other
 
 # Aliases
 
@@ -22,3 +28,4 @@ You can easily add your own alises by editing the plguin.yml in the plugins jar 
 
 # Usefull Links:
 CI: http://bender.minidigger.me:9090/job/OnlineTime/
+GitHub: https://github.com/MiniDigger/OnlineTime
