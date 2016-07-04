@@ -1,8 +1,11 @@
 name: PlayTime
 author: MiniDigger
 version: 1.0
-main: me.MiniDigger.OnlineTime.OnlineTime
+main: me.MiniDigger.OnlineTime.OnlineTime.OnlineTime
 commands:
   onlinetime:
     description: Shows your playtime or the playtime of a specficed player.
-    aliases: [playtime]
+    aliases: [playtime,timeplayed]
+  onlinetimerewards:
+    description: Shows your rewards or the rewards of a specified player.
+    aliases: [playtimerewards]

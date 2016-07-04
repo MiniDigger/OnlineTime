@@ -1,1 +1,10 @@
 message: "The player %p% has played on the server for %d% days %h% hours %m% mintues and %s% seconds."
+show-reward-notification: true
+check-period: "5M"
+rewards:
+  test-reward:
+     message: "Wow, you have managed to play 1 hour on this server. Take this as a gift!"
+     time: "1H"
+     commands:
+       - "say reward given"
+       - "give %p% DIAMOND_AXE"
