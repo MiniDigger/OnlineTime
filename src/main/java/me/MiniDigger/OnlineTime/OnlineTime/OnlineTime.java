@@ -248,7 +248,7 @@ public class OnlineTime extends JavaPlugin implements Listener {
     }
 
     private String formatMessage( String message, long[] time, Player player ) {
-        return message.replace( "%d%", time[0] + "" ).replace( "%h%", time[1] + "" ).replace( "%m%", time[2] + "" ).replace( "%s%", time[3] + "" ).replace( "%p%", player.getDisplayName() );
+        return ChatColor.translateAlternateColorCodes( '&', message.replace( "%d%", time[0] + "" ).replace( "%h%", time[1] + "" ).replace( "%m%", time[2] + "" ).replace( "%s%", time[3] + "" ).replace( "%p%", player.getDisplayName() ) );
     }
 
     private long[] formatDuration( long millis ) {

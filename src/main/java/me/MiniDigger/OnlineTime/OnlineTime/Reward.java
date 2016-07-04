@@ -1,6 +1,7 @@
 package me.MiniDigger.OnlineTime.OnlineTime;
 
 import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 
 import java.time.Duration;
@@ -45,7 +46,7 @@ public class Reward {
             }
 
             if ( message != null ) {
-                player.sendMessage( message );
+                player.sendMessage( ChatColor.translateAlternateColorCodes( '&', message ) );
             }
         } );
     }
